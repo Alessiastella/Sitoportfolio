@@ -1,0 +1,43 @@
+.Header {
+  width: 80%;
+  margin: auto;
+  position: relative;
+
+  .photo {
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .texts {
+    position: absolute;
+    top: 14rem;
+
+    .student {
+      text-transform: uppercase;
+      letter-spacing: 1rem;
+      font-size: 1.6rem;
+    }
+    .name {
+      text-transform: uppercase;
+      font-size: 8rem;
+      letter-spacing: 6rem;
+
+      span {
+        display: inline-block;
+      }
+    }
+  }
+
+  .small-intro {
+    max-width: 50rem;
+    position: absolute;
+    bottom: 2rem;
+  }
+}

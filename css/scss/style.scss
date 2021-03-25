@@ -1,0 +1,72 @@
+@import "navbar";
+@import "header";
+@import "about";
+@import "skills";
+@import "footer";
+@import "responsive";
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+a {
+  text-transform: uppercase;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+}
+
+a:hover {
+  color: #7839ca;
+}
+
+h3 span,
+h2 span {
+  color: #7839ca;
+}
+
+h2 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+}
+.logo a {
+  padding: 0;
+}
+
+.photo img,
+.student span,
+.name span,
+.logo,
+.menu li,
+.small-intro span {
+  opacity: 0;
+}
+
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(153, 153, 153);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7839ca;
+}

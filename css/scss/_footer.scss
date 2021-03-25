@@ -1,0 +1,23 @@
+footer {
+  padding-left: 3%;
+  padding-right: 3%;
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .socials {
+    list-style: none;
+    display: flex;
+
+    i {
+      font-size: 2.5rem;
+    }
+  }
+}

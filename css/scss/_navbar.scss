@@ -1,0 +1,39 @@
+#home {
+  min-height: 12vh;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 95%;
+    margin: auto;
+
+    position: fixed;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    ul {
+      display: flex;
+      list-style: none;
+      font-size: 1.5rem;
+
+      .btn a {
+        background: linear-gradient(45deg, #b043d3, #574ed3);
+        color: #000;
+        padding: 1.2rem 2.6rem;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+      }
+
+      .btn a:hover {
+        border-radius: 1.5rem;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+        color: #000;
+      }
+    }
+  }
+}

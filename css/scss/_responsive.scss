@@ -1,0 +1,106 @@
+/* Tablets and under */
+@media (max-width: 930px) {
+  .name span {
+    font-size: 5rem;
+    letter-spacing: 4rem;
+  }
+
+  .student span {
+    letter-spacing: 0.8rem;
+    font-size: 1.4rem;
+  }
+
+  .small-intro {
+    font-size: 1.4rem;
+  }
+
+  .photo img {
+    min-width: 20rem;
+  }
+
+  .socials li a i {
+    font-size: 2.3rem;
+  }
+
+  .container {
+    flex-wrap: wrap;
+
+    .items-group2 {
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .item4,
+    .item5,
+    img {
+      width: 90%;
+      height: auto;
+      margin: 1rem 0;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 630px) {
+  #home {
+    min-height: 14vh;
+  }
+  .navbar {
+    flex-direction: column;
+
+    ul {
+      margin: 1rem 0;
+    }
+  }
+
+  .name span {
+    font-size: 4rem;
+    letter-spacing: 3rem;
+  }
+
+  .small-intro {
+    font-size: 1.3rem;
+  }
+
+  .student span {
+    letter-spacing: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .photo img {
+    width: 30rem;
+    height: auto;
+    margin: 3rem -5rem;
+  }
+
+  .container {
+    flex-wrap: wrap;
+
+    .items-group2 {
+      align-items: center;
+
+      .item4,
+      .item5,
+      img {
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  footer h3 {
+    font-size: 1.3rem;
+  }
+
+  .socials li a i {
+    font-size: 2rem;
+  }
+
+  .content .content-inner {
+    padding: 5rem;
+    margin: 12rem 0 18rem 0;
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}

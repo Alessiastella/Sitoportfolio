@@ -1,0 +1,19 @@
+.content {
+  width: 80%;
+  margin: auto;
+
+  #About {
+    color: black;
+  }
+
+  .content-inner {
+    background-color: #353535;
+    padding: 8rem;
+    margin: 14rem 0 17rem 0;
+    box-shadow: 20px 15px 0px 0px rgba(255, 255, 255, 0.801);
+
+    h2 {
+      padding-bottom: 2rem;
+    }
+  }
+}
